@@ -22,6 +22,12 @@ mlflow ui
 python src/train.py
 ```
 
+### 4. Run validate and promote script
+
+```bash
+python src/promote.py
+```
+
 ### 4. Observe metrics
 
 Open http://127.0.0.1:5000 to observe the model runs, model versions and compare metrics
