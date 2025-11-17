@@ -53,8 +53,8 @@ with mlflow.start_run() as run:
 
     # --- 4. Log Parameters ---
     # Define hyperparameters for this run
-    n_estimators = 100
-    max_depth = 8
+    n_estimators = 125
+    max_depth = 10
     
     # Log parameters to make runs reproducible and comparable
     mlflow.log_param("n_estimators", n_estimators)
@@ -94,4 +94,4 @@ with mlflow.start_run() as run:
     )
     
 print(f"\n--- Run {run_id} finished. ---")
-print(f"Model '{model_info.registered_model_name}' version {model_info.version} is registered.")
+print(f"Model california-housing-rf version {model_info.registered_model_version} is registered.")
