@@ -1,4 +1,4 @@
-# MLflow Model Lifecycle Lab: Tracking, Registration, and Promotion
+# California Housing Prediction with MLFlow Integration
 
 ## Overview
 
